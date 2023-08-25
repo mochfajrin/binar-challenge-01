@@ -133,6 +133,22 @@
   height: 80px;
   object-fit: cover;
 }
+.carousel-text-regular {
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.carouse-text-bold {
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
 .testemony-bold-text {
   font-family: Helvetica;
   font-size: 24px;
@@ -183,10 +199,8 @@
 }
 /* FAQ */
 
-.accordion-border {
-  border: 5px solid black;
+.accordion-gap {
 }
-
 .faq-section {
   margin-top: 15vh;
 }
