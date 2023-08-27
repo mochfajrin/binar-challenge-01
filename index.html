@@ -2,23 +2,31 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="stylesheet" href="./assets/styles/nav.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="x-icon" href="./assets/icons/favicon/642a550c99a0eb420ad3b15e_favicon.ico">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./assets/vendor/bootstrap-5.3.1-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/styles/nav.css" />
+  <link rel="stylesheet" href="./assets/styles/hero.css" />
+  <link rel="stylesheet" href="./assets/styles/service.css" />
+  <link rel="stylesheet" href="./assets/styles/why-us.css" />
+  <link rel="stylesheet" href="./assets/styles/testimony.css" />
+  <link rel="stylesheet" href="./assets/styles/cta-section.css" />
+  <link rel="stylesheet" href="./assets/styles/footer.css" />
+
   <title>Binar Car Rental</title>
 </head>
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg bg-white fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#"><img class="brand-logo" src="./assets/images/logo/logo.png" alt="" /></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
           aria-controls="offcanvasNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas offcanvas-end w-50" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="offcanvasNavbarLabel">BCR</h5>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -50,11 +58,11 @@
     </nav>
   </header>
   <main>
-    <section class="hero-section">
+    <section class="hero-section overflow-hidden">
       <div class="container">
         <div class="row">
-          <div class="col-lg-5">
-            <div class="text-hero-bold mb-5">
+          <div class="col-lg-6 col-md-12">
+            <div class="text-hero-bold mb-4 ">
               <strong>Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)</strong>
             </div>
             <div class="text-hero-reguler mb-3">
@@ -64,22 +72,23 @@
             <button class="btn btn-success" type="button"
               style="border-radius: 0; background-color: #5CB85F; border-color: #5CB85F;">Sewa Mobil</button>
           </div>
-          <div class="col-lg-5 ms-5">
+          <div class="col-lg-6 col-md-12 mt-lg-0 mt-md-5">
             <img class="hero-image" src="./assets/images/hero/img_car.png"
               alt="Mercedes Car EQC 300kW Edition - 900x598 1">
           </div>
         </div>
       </div>
     </section>
-    <section class="services my-5">
-      <div class="container p-5">
+
+    <section class="services-section">
+      <div class="container">
         <div class="row ">
-          <div class="col-lg-7">
-            <figure class="image-service-container mx-sm-auto">
-              <img class="image-service" src="./assets/images/services/img_service.png" alt="Happy girl">
+          <div class="col-lg-7 col-md-12 mb-md-5">
+            <figure class="image-service-container mx-lg-auto mx-sm-0">
+              <img class="service-image" src="./assets/images/services/img_service.png" alt="Happy girl">
             </figure>
           </div>
-          <div class="col-lg-5">
+          <div class="col-lg-5 col-md-12">
             <div class="text-service-bold mb-4"><strong>Best Car Rental for any kind of trip in (Lokasimu)!</strong>
             </div>
             <div class="text-service-regular">
@@ -100,7 +109,8 @@
         </div>
       </div>
     </section>
-    <section class="why-us container">
+
+    <!-- <section class="why-us container">
       <div class="text-why-us-bold mb-4"><strong>Why Us?</strong></div>
       <div class="text-why-us-regular mb-5">Mengapa harus pilih Binar Car Rental?</div>
       <div class="row g-3">
@@ -152,8 +162,9 @@
         </div>
 
       </div>
-    </section>
-    <section class="testimony container">
+    </section> -->
+
+    <!-- <section class="testimony container">
       <div class="testemony-bold-text mb-3"><strong>Testimonial</strong></div>
       <div class="testimony-regular-text">
         <p>Berbagai review positif dari para pelanggan kami</p>
@@ -223,9 +234,9 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-    </section>
+    </section> -->
 
-    <section class="cta-section container text-center">
+    <!-- <section class="cta-section container text-center">
       <div class="cta-bold-text"><strong>Sewa Mobil di (Lokasimu) Sekarang</strong></div>
       <div class="cta-regular-text">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -233,8 +244,9 @@
       </div>
       <button class="btn btn-success" style="border-radius: 0; background-color: #5CB85F; border-color: #5CB85F;">Mulai
         Sewa Mobil</button>
-    </section>
-    <section class="faq-section container">
+    </section> -->
+
+    <!-- <section class="faq-section container">
       <div class="row">
         <div class="faq-ex col-lg-5 text-sm-center">
           <div class="faq-text-bold mb-3"><strong>Frequently Asked Question</strong></div>
@@ -336,8 +348,11 @@
           </div>
         </div>
       </div>
-    </section>
+    
+    </section> -->
+
   </main>
+  <!--
   <footer class="container footer-section">
     <div class="row g-2">
       <div class="col-lg-3 address-text-regular">
@@ -372,10 +387,9 @@
         <img class="brand-logo" src="./assets/images/logo/logo.png" alt="brand logo">
       </div>
     </div>
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-    crossorigin="anonymous"></script>
+  </footer> -->
+
+  <script src="./assets/vendor/bootstrap-5.3.1-dist/js/bootstrap.bundle.js"></script>
 
 </body>
 

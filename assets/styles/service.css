@@ -1,0 +1,46 @@
+.services-section {
+  margin-top: 5vmax;
+}
+
+.text-service-bold {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.text-service-regular {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.list-service {
+  list-style-image: url("../icons/list/service-check.svg");
+}
+
+.list-item-service {
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 1.2em auto;
+}
+
+.service-image {
+  width: 459px;
+  object-fit: cover;
+}
+
+@media (max-width: 576px) {
+  .service-image {
+    width: 90vw;
+  }
+}

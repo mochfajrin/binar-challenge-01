@@ -1,0 +1,51 @@
+.navbar .container-fluid {
+  padding: 0 10vw;
+}
+.hero-section {
+  padding-top: 10em;
+  background-color: #f1f3ff;
+}
+.brand-logo {
+  width: 100px;
+  height: 34px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.text-hero-bold {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+.text-hero-regular {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+}
+.btn-hero {
+  background-color: #5cb85f;
+  color: #ffffff;
+  display: inline-flex;
+  padding: 8px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.hero-image {
+  width: 123%;
+  height: auto;
+  margin-right: 100vw;
+  object-fit: cover;
+}
+@media (max-width: 576px) {
+  .hero-image {
+    width: 100vw;
+    height: auto;
+    margin: 4vh calc(-50vw + 50%);
+  }
+}
