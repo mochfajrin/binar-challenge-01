@@ -1,0 +1,43 @@
+/* why-us */
+.text-why-us-bold {
+  font-family: Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.text-why-us-regular {
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.text-card-why-us-bold {
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.text-card-why-us-regular {
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.why-us-icon {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 30px;
+  left: 1em;
+}

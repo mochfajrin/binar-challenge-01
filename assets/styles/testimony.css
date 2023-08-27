@@ -1,0 +1,56 @@
+/* testimony */
+.testimony {
+  margin-top: 15vh;
+}
+.client-carousel-photo {
+  width: 70.22px;
+  height: 80px;
+  object-fit: cover;
+}
+.carousel-text-regular {
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.carouse-text-bold {
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.testemony-bold-text {
+  font-family: Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.testimony-regular-text {
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.testimony-section {
+  padding: 20vh calc(12vw - 10vmin);
+}
+.carousel-item {
+  padding: calc(20vh - 2.5vw) calc(10vw - 1vw);
+  border-radius: 8px;
+  background-color: #f1f3ff;
+}
+
+@media (max-width: 576px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    margin-bottom: 20vmax;
+  }
+}

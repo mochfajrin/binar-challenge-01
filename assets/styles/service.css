@@ -1,4 +1,6 @@
 .services-section {
+  margin: auto;
+  max-width: 95vw;
   margin-top: 5vmax;
 }
 
