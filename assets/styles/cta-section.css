@@ -1,5 +1,5 @@
 /* cta */
-.cta-section {
+.cta-text-container {
   padding: 13px;
   background-color: #0d28a6;
   border-radius: 13px;
@@ -46,7 +46,7 @@
     letter-spacing: 0em;
     text-align: center;
   }
-  .cta-section {
+  .cta-text-container {
     padding: 64px, 270px, 64px, 270px;
   }
 }
